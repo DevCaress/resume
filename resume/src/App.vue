@@ -41,6 +41,7 @@ export default {
 
   --bg-card: #fff;
   --box-shadow: 0 0 20px 0px white;
+  --box-shadow-secondary: 0 0 20px 0px #A61B1B;
 
 
 

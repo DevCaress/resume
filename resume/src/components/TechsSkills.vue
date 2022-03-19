@@ -415,12 +415,10 @@ export default {
   mounted() {
     const svgs = document.getElementsByTagName("svg");
     /* const container = document.querySelector(".icon-cont"); */
-
     for (const iterator of svgs) {
         iterator.classList.add('active');
         iterator.addEventListener('mouseover', () => iterator.classList.remove('active'))
         iterator.addEventListener('mouseout', () => iterator.classList.add('active'))
-
     }
     
   },
@@ -429,6 +427,10 @@ export default {
 
 
 <style scoped>
+
+.h2{
+  text-align: center;
+}
 section {
   overflow: hidden;
   position: relative;
